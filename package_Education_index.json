@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+
+      "name": "education_boards",
+      "maintainer": "STEAMx Lab",
+      "websiteUrl": "https://aifarm.dev/",
+      "email": "INFO@AIFARM.DEV",
+
+      "platforms": [
+        {
+
+          "name": "Education Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+
+          "category": "Contributed",
+          
+          "url": "https://github.com/e20200426/Education-Boards/blob/main/Edu_boards_1.0.0.zip?raw=true",
+          "archiveFileName": "Edu_boards_1.0.0.zip",
+          "checksum": "SHA-256:2d6bedcc7137d9e55073a522f9c97ae0e0416d719a7946949747a2af7dd9e706",
+          "size": "8585413",
+
+          "boards": [
+            {
+              "name": "MICRO:MO"
+            },
+            {
+              "name": "MICRO:BOT"
+            }
+          ],
+
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
